@@ -3,23 +3,66 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47C0F76FFCD8D9603221C1B5 /* Pods_Kelimelerim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A96C49AA8A3828A397295A /* Pods_Kelimelerim.framework */; };
+		596E1EA2257F855100E5B6C1 /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596E1EA1257F855100E5B6C1 /* BookView.swift */; };
+		596E1EA5257F856400E5B6C1 /* BookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596E1EA4257F856400E5B6C1 /* BookViewModel.swift */; };
+		596E1EA8257F860300E5B6C1 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596E1EA7257F860300E5B6C1 /* Book.swift */; };
+		596E1EAB257F865800E5B6C1 /* BookCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596E1EAA257F865800E5B6C1 /* BookCard.swift */; };
+		596E1EAE257FF97900E5B6C1 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596E1EAD257FF97900E5B6C1 /* AddBookView.swift */; };
+		596E1EBA257FFCBA00E5B6C1 /* AddBookProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596E1EB9257FFCBA00E5B6C1 /* AddBookProtocol.swift */; };
+		596E1EC2258008BC00E5B6C1 /* AddBookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596E1EC1258008BC00E5B6C1 /* AddBookViewModel.swift */; };
+		596E1ED32581501300E5B6C1 /* AddWordProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596E1ED22581501300E5B6C1 /* AddWordProtocol.swift */; };
+		596E1ED62581563100E5B6C1 /* AddWordPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596E1ED52581563100E5B6C1 /* AddWordPopup.swift */; };
 		5980DACC257E6265000BE656 /* KelimelerimApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5980DACB257E6265000BE656 /* KelimelerimApp.swift */; };
-		5980DACE257E6265000BE656 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5980DACD257E6265000BE656 /* ContentView.swift */; };
 		5980DAD0257E6269000BE656 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5980DACF257E6269000BE656 /* Assets.xcassets */; };
 		5980DAD3257E6269000BE656 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5980DAD2257E6269000BE656 /* Preview Assets.xcassets */; };
+		5980DAE0257E630B000BE656 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5980DADF257E630B000BE656 /* ServiceManager.swift */; };
+		5980DAE4257E637C000BE656 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 5980DAE3257E637C000BE656 /* Alamofire */; };
+		5980DAE8257E6417000BE656 /* JsonModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5980DAE7257E6417000BE656 /* JsonModelProtocol.swift */; };
+		5980DAEF257E6690000BE656 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5980DAEE257E668F000BE656 /* GoogleService-Info.plist */; };
+		5980DB05257E6F3E000BE656 /* FirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5980DB04257E6F3E000BE656 /* FirebaseService.swift */; };
+		5980DB08257E73B4000BE656 /* WordDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5980DB07257E73B4000BE656 /* WordDictionary.swift */; };
+		5980DB0B257E7421000BE656 /* WordDictionaryError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5980DB0A257E7421000BE656 /* WordDictionaryError.swift */; };
+		5980DB0F257E86C5000BE656 /* BookWordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5980DB0E257E86C5000BE656 /* BookWordsView.swift */; };
+		5980DB12257E86DB000BE656 /* BookWordsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5980DB11257E86DB000BE656 /* BookWordsViewModel.swift */; };
+		5980DB15257E86F4000BE656 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5980DB14257E86F4000BE656 /* BaseViewModel.swift */; };
+		5980DB19257EA4E7000BE656 /* WordDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5980DB18257EA4E6000BE656 /* WordDetailView.swift */; };
+		5980DB1D257EA62C000BE656 /* WordCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5980DB1C257EA62C000BE656 /* WordCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2AE754B0B86F174608B89AC1 /* Pods-Kelimelerim.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kelimelerim.release.xcconfig"; path = "Target Support Files/Pods-Kelimelerim/Pods-Kelimelerim.release.xcconfig"; sourceTree = "<group>"; };
+		596E1EA1257F855100E5B6C1 /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
+		596E1EA4257F856400E5B6C1 /* BookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewModel.swift; sourceTree = "<group>"; };
+		596E1EA7257F860300E5B6C1 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		596E1EAA257F865800E5B6C1 /* BookCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCard.swift; sourceTree = "<group>"; };
+		596E1EAD257FF97900E5B6C1 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
+		596E1EB9257FFCBA00E5B6C1 /* AddBookProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookProtocol.swift; sourceTree = "<group>"; };
+		596E1EC1258008BC00E5B6C1 /* AddBookViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBookViewModel.swift; sourceTree = "<group>"; };
+		596E1ED22581501300E5B6C1 /* AddWordProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWordProtocol.swift; sourceTree = "<group>"; };
+		596E1ED52581563100E5B6C1 /* AddWordPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWordPopup.swift; sourceTree = "<group>"; };
 		5980DAC8257E6265000BE656 /* Kelimelerim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kelimelerim.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5980DACB257E6265000BE656 /* KelimelerimApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KelimelerimApp.swift; sourceTree = "<group>"; };
-		5980DACD257E6265000BE656 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5980DACF257E6269000BE656 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5980DAD2257E6269000BE656 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5980DAD4257E6269000BE656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5980DADF257E630B000BE656 /* ServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		5980DAE7257E6417000BE656 /* JsonModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonModelProtocol.swift; sourceTree = "<group>"; };
+		5980DAEE257E668F000BE656 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5980DB04257E6F3E000BE656 /* FirebaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseService.swift; sourceTree = "<group>"; };
+		5980DB07257E73B4000BE656 /* WordDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDictionary.swift; sourceTree = "<group>"; };
+		5980DB0A257E7421000BE656 /* WordDictionaryError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDictionaryError.swift; sourceTree = "<group>"; };
+		5980DB0E257E86C5000BE656 /* BookWordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookWordsView.swift; sourceTree = "<group>"; };
+		5980DB11257E86DB000BE656 /* BookWordsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookWordsViewModel.swift; sourceTree = "<group>"; };
+		5980DB14257E86F4000BE656 /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		5980DB18257EA4E6000BE656 /* WordDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDetailView.swift; sourceTree = "<group>"; };
+		5980DB1C257EA62C000BE656 /* WordCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCard.swift; sourceTree = "<group>"; };
+		6F8796A2CFECB9F0C1FABC44 /* Pods-Kelimelerim.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kelimelerim.debug.xcconfig"; path = "Target Support Files/Pods-Kelimelerim/Pods-Kelimelerim.debug.xcconfig"; sourceTree = "<group>"; };
+		F7A96C49AA8A3828A397295A /* Pods_Kelimelerim.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kelimelerim.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +70,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5980DAE4257E637C000BE656 /* Alamofire in Frameworks */,
+				47C0F76FFCD8D9603221C1B5 /* Pods_Kelimelerim.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		350DA6F4824CF85794EA2B8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F8796A2CFECB9F0C1FABC44 /* Pods-Kelimelerim.debug.xcconfig */,
+				2AE754B0B86F174608B89AC1 /* Pods-Kelimelerim.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		596E1EB4257FF9B200E5B6C1 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				596E1EB9257FFCBA00E5B6C1 /* AddBookProtocol.swift */,
+				596E1ED22581501300E5B6C1 /* AddWordProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		596E1EC625801EDC00E5B6C1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		5980DABF257E6264000BE656 = {
 			isa = PBXGroup;
 			children = (
 				5980DACA257E6265000BE656 /* Kelimelerim */,
 				5980DAC9257E6265000BE656 /* Products */,
+				350DA6F4824CF85794EA2B8F /* Pods */,
+				8D5D93B31A937CC581450DCE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,11 +124,19 @@
 		5980DACA257E6265000BE656 /* Kelimelerim */ = {
 			isa = PBXGroup;
 			children = (
-				5980DACB257E6265000BE656 /* KelimelerimApp.swift */,
-				5980DACD257E6265000BE656 /* ContentView.swift */,
-				5980DACF257E6269000BE656 /* Assets.xcassets */,
-				5980DAD4257E6269000BE656 /* Info.plist */,
+				596E1EC625801EDC00E5B6C1 /* Extension */,
+				5980DAE6257E63D9000BE656 /* Base */,
+				5980DADE257E62E6000BE656 /* Service */,
+				5980DADB257E62D2000BE656 /* Model */,
+				5980DADC257E62D6000BE656 /* View */,
+				5980DADD257E62DC000BE656 /* ViewModel */,
+				596E1EB4257FF9B200E5B6C1 /* Protocol */,
+				5980DB1B257EA61A000BE656 /* Helper */,
 				5980DAD1257E6269000BE656 /* Preview Content */,
+				5980DACB257E6265000BE656 /* KelimelerimApp.swift */,
+				5980DACF257E6269000BE656 /* Assets.xcassets */,
+				5980DAEE257E668F000BE656 /* GoogleService-Info.plist */,
+				5980DAD4257E6269000BE656 /* Info.plist */,
 			);
 			path = Kelimelerim;
 			sourceTree = "<group>";
@@ -69,6 +149,73 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		5980DADB257E62D2000BE656 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5980DB07257E73B4000BE656 /* WordDictionary.swift */,
+				5980DB0A257E7421000BE656 /* WordDictionaryError.swift */,
+				596E1EA7257F860300E5B6C1 /* Book.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5980DADC257E62D6000BE656 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				596E1EA1257F855100E5B6C1 /* BookView.swift */,
+				596E1EAD257FF97900E5B6C1 /* AddBookView.swift */,
+				5980DB0E257E86C5000BE656 /* BookWordsView.swift */,
+				5980DB18257EA4E6000BE656 /* WordDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5980DADD257E62DC000BE656 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				596E1EA4257F856400E5B6C1 /* BookViewModel.swift */,
+				596E1EC1258008BC00E5B6C1 /* AddBookViewModel.swift */,
+				5980DB11257E86DB000BE656 /* BookWordsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5980DADE257E62E6000BE656 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				5980DADF257E630B000BE656 /* ServiceManager.swift */,
+				5980DB04257E6F3E000BE656 /* FirebaseService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		5980DAE6257E63D9000BE656 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5980DB14257E86F4000BE656 /* BaseViewModel.swift */,
+				5980DAE7257E6417000BE656 /* JsonModelProtocol.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		5980DB1B257EA61A000BE656 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				5980DB1C257EA62C000BE656 /* WordCard.swift */,
+				596E1EAA257F865800E5B6C1 /* BookCard.swift */,
+				596E1ED52581563100E5B6C1 /* AddWordPopup.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		8D5D93B31A937CC581450DCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7A96C49AA8A3828A397295A /* Pods_Kelimelerim.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,15 +223,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5980DAD7257E6269000BE656 /* Build configuration list for PBXNativeTarget "Kelimelerim" */;
 			buildPhases = (
+				50BAB28429A478D0CBC1638B /* [CP] Check Pods Manifest.lock */,
 				5980DAC4257E6265000BE656 /* Sources */,
 				5980DAC5257E6265000BE656 /* Frameworks */,
 				5980DAC6257E6265000BE656 /* Resources */,
+				7D4712E88BD67869EE01C3CC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Kelimelerim;
+			packageProductDependencies = (
+				5980DAE3257E637C000BE656 /* Alamofire */,
+			);
 			productName = Kelimelerim;
 			productReference = 5980DAC8257E6265000BE656 /* Kelimelerim.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +264,9 @@
 				Base,
 			);
 			mainGroup = 5980DABF257E6264000BE656;
+			packageReferences = (
+				5980DAE2257E637C000BE656 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 5980DAC9257E6265000BE656 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,18 +283,79 @@
 			files = (
 				5980DAD3257E6269000BE656 /* Preview Assets.xcassets in Resources */,
 				5980DAD0257E6269000BE656 /* Assets.xcassets in Resources */,
+				5980DAEF257E6690000BE656 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50BAB28429A478D0CBC1638B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kelimelerim-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D4712E88BD67869EE01C3CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kelimelerim/Pods-Kelimelerim-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kelimelerim/Pods-Kelimelerim-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kelimelerim/Pods-Kelimelerim-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5980DAC4257E6265000BE656 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5980DACE257E6265000BE656 /* ContentView.swift in Sources */,
+				596E1EBA257FFCBA00E5B6C1 /* AddBookProtocol.swift in Sources */,
+				596E1EAB257F865800E5B6C1 /* BookCard.swift in Sources */,
+				596E1EA5257F856400E5B6C1 /* BookViewModel.swift in Sources */,
+				5980DB15257E86F4000BE656 /* BaseViewModel.swift in Sources */,
+				596E1EA8257F860300E5B6C1 /* Book.swift in Sources */,
+				5980DB12257E86DB000BE656 /* BookWordsViewModel.swift in Sources */,
+				5980DB08257E73B4000BE656 /* WordDictionary.swift in Sources */,
+				596E1EC2258008BC00E5B6C1 /* AddBookViewModel.swift in Sources */,
+				596E1EA2257F855100E5B6C1 /* BookView.swift in Sources */,
+				5980DB19257EA4E7000BE656 /* WordDetailView.swift in Sources */,
+				5980DB05257E6F3E000BE656 /* FirebaseService.swift in Sources */,
 				5980DACC257E6265000BE656 /* KelimelerimApp.swift in Sources */,
+				5980DAE8257E6417000BE656 /* JsonModelProtocol.swift in Sources */,
+				5980DB0F257E86C5000BE656 /* BookWordsView.swift in Sources */,
+				596E1ED62581563100E5B6C1 /* AddWordPopup.swift in Sources */,
+				596E1EAE257FF97900E5B6C1 /* AddBookView.swift in Sources */,
+				5980DB1D257EA62C000BE656 /* WordCard.swift in Sources */,
+				596E1ED32581501300E5B6C1 /* AddWordProtocol.swift in Sources */,
+				5980DB0B257E7421000BE656 /* WordDictionaryError.swift in Sources */,
+				5980DAE0257E630B000BE656 /* ServiceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +480,7 @@
 		};
 		5980DAD8257E6269000BE656 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F8796A2CFECB9F0C1FABC44 /* Pods-Kelimelerim.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -286,6 +503,7 @@
 		};
 		5980DAD9257E6269000BE656 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AE754B0B86F174608B89AC1 /* Pods-Kelimelerim.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -328,6 +546,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5980DAE2257E637C000BE656 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5980DAE3257E637C000BE656 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5980DAE2257E637C000BE656 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5980DAC0257E6264000BE656 /* Project object */;
 }
